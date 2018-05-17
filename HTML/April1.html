@@ -1,0 +1,86 @@
+<html>
+<head>
+	<style>
+/* unvisited link */
+.a:link{
+    color: red;
+}
+
+/* visited link */
+.a:visited {
+    color: green;
+}
+
+/* mouse over link */
+.a:hover{
+	background-color:red;
+	height:50%;
+	width:50%;
+
+}
+
+/* selected link */
+.a:active {
+    color: blue;
+}
+
+	.block-1{
+	background-color:slateblue;
+	height:50%;
+	width:50%;
+}
+.block1-txt{
+	color:white;
+	text-align: center;
+    margin: 25px 50px 75px 100px;
+}
+	.block2{
+	background-color:dodgerblue;
+	height:50%;
+	width:50%;
+	position:absolute;
+	left:75%; 
+	right:25%;
+	top:0%;
+	bottom: 0%;
+
+}
+
+.block2txt{
+	color:black;
+	text-align: center;
+}
+.button:link{
+	background-color:white; 
+	position: absolute;
+	height:4%;
+	text-align: center;
+	border: groove;
+	border-color: yellow;
+}
+.button:visited{
+	background-color:black;
+}
+.button:hover{
+	background-color:red;
+	border-color:green ;
+	position: absolute;
+	text-align: center;
+	height:4%;
+
+
+}
+
+</style>
+
+</head>
+<body>
+<a class="a" href="http://www.bing.com">
+<div class="block-1"><br><br><br><br><br>
+	<p class="block1-txt">sometext 1</p></div>
+	</a><br><br><br><br><br><div class="block2"><br><br><br><br><br>
+	<p class="block2txt">sometext 2</p></div>
+<center>	
+<a class="button" href="http://www.google.com"> <div> Button </div> </a></center>
+</body>
+</html>
